@@ -3,7 +3,7 @@ const fs = require('fs')
 const assets = ['css', 'js', 'lib', 'fonts'];
 
 
-function make(dir){
+function makeDir(dir){
 	dir.forEach((item)=>{
 		fs.mkdirSync(`assets/${item}`, { recursive : true }, (err)=>{
 			if(err) throw err;
@@ -13,7 +13,7 @@ function make(dir){
 	})
 }
 
-make(assets)
+makeDir(assets)
 
 const files = ['style.css', 'reset.css', 'index.html', 'index.js']
 
