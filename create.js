@@ -33,7 +33,7 @@ const cssCreate = "reset.css"
 const htmlCreate = "index.html"
 const jsCreate = "index.js"
 
-fs.writeFile(`${cssCreate}`, "*{\n  margin:0%; \n  padding:0%; \n  box-sizing: border-box; \n} \nhtml,body{\n  width: 100%; \n  height:100%; \n }", err =>{
+fs.writeFile(`${cssCreate}`, "*{\n  margin:0%; \n  padding:0%; \n  box-sizing: border-box; \n} \nhtml,body{\n  width: 100%; \n  height:100%; \n}", err =>{
     if(err) throw err;
 
     console.log(`File ${cssCreate} created `);
