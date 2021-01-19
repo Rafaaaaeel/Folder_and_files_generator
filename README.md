@@ -4,7 +4,7 @@
 
 This is a node.js script to use when do you go a start your web project.
 
-Inside the code you can edit the arrays **"assets"** to add the folders do you want, and edit the **"files"** to add more files, standard setting create 4 files:
+Inside the code you can edit the arrays **"assets"** to add the folders do you want, and edit the **"files"** to add more files, standard setting create this files:
 
 * folders
   * assets
