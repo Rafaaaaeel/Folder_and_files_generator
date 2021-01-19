@@ -13,6 +13,6 @@ Inside the code you can edit the arrays **"assets"** to add the folders do you w
 
 ## how to use?
 
-Put in your main project folder the file "created.js", and run in your terminal the code: node create.
+Put in your main project folder the file "created.js", and run in your terminal the code: ``` node create.```
 
 ##Made for Rafael oliveira pires, created for study node.js <3
