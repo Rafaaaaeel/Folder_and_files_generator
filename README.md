@@ -1,6 +1,6 @@
-#**Folder-and-files-generator**
+# **Folder-and-files-generator**
 
-##what he makes?
+## what he makes?
 
 This is a node.js script to use when do you go a start your web project.
 
@@ -11,7 +11,7 @@ Inside the code you can edit the arrays **"assets"** to add the folders do you w
 *reset.css
 *style.css
 
-##how to use?
+## how to use?
 
 Put in your main project folder the file "created.js", and run in your terminal the code: node create.
 
