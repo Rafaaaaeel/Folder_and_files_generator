@@ -5,7 +5,7 @@ const assets = ['css', 'js', 'lib', 'fonts'];
 
 function make(dir){
 	dir.forEach((item)=>{
-		fs.mkdirSync(`project/assets/${item}`, { recursive : true }, (err)=>{
+		fs.mkdirSync(`assets/${item}`, { recursive : true }, (err)=>{
 			if(err) throw err;
 
 			console.log('Created', item)
