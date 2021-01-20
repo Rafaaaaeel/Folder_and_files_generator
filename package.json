@@ -1,4 +1,5 @@
 {
     "name": "Create",
+    "author": "Rafael Oliveira Pires",
     "bin":"index.js"
 }
