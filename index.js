@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const assets = ['css', 'js', 'lib', 'fonts'] //folders for create
+const assets = ['css', 'js', 'lib', 'fonts', 'Routes'] //folders for create
 
 //Using a function to create the folders in the array
 function makeDir(dir){
@@ -19,7 +19,7 @@ function makeDir(dir){
 
 makeDir(assets); //call the function passing the array "assets" content the folders and your names
 
-const files = ['style.css', 'reset.css', 'index.html', 'index.js'];//files for create
+const files = ['style.css', 'reset.css', 'index.html', 'index.js', 'app.js'];//files for create
 
 //Using for create the files,  the samething "makeDir" bout this time create files
 function makeFile(dir){
@@ -41,6 +41,7 @@ makeFile(files); //call the function passing the array "files"
 const cssCreate = "reset.css";
 const htmlCreate = "index.html";
 const jsCreate = "index.js";
+const jsAppCreate = "app.js";
 
 //Reset.css value
 fs.writeFile(`${cssCreate}`, "*{\n  margin:0%; \n  padding:0%; \n  box-sizing: border-box; \n} \nhtml,body{\n  width: 100%; \n  height:100%; \n}", err =>{
@@ -71,6 +72,9 @@ fs.rename(`${htmlCreate}` , `assets/${htmlCreate}`, err =>{
 });
 
 fs.rename(`${jsCreate}` , `assets/js/${jsCreate}`, err =>{
+    if(err) throw err;
+});
+fs.rename(`${jsAppCreate}` , `assets/js/${jsAppCreate}`, err =>{
     if(err) throw err;
 });
 
