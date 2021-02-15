@@ -12,9 +12,11 @@ Inside the code you can edit the arrays **"assets"** to add the folders do you w
     * fonts
     * libs
     * js
+    * routes
 
 * files
   * index.js
+  * app.js
   * index.html
   * reset.css
   * style.css
